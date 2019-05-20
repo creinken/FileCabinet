@@ -19,6 +19,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'haml', '~> 5.0', '>= 5.0.4'
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'simple_form', '~> 4.1'
+gem 'passenger', '~> 6.0.2', require: 'phusion_passenger/rack_handler'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
